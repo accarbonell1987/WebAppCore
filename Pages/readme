@@ -1,0 +1,6 @@
+En esencia, cada elemento en el directorio de páginas es una combinación de diferentes módulos. 
+Las páginas también se pueden dividir en subdirectorios más pequeños. 
+La diferencia clave entre páginas y módulos es el grosor lógico. 
+Las páginas también se pueden dividir en subdirectorios más pequeños. 
+La principal diferencia entre las páginas y los módulos es la cantidad de lógica especifica del negocio que contienen. 
+Las páginas deben mantenerse al mínimo y toda la lógica del negocio debe colocarse en módulos, para usarse a nivel de página.

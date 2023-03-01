@@ -1,0 +1,7 @@
+La interfaz de usuario solo debe consistir en componentes altamente reutilizables. 
+En esencia, esa es la columna vertebral del proyecto. 
+
+Constituye la base sobre la que se construyen otras capas y no debe contener ningún tipo de lógica empresarial. 
+De lo contrario, el uso de componentes de ese módulo se volverá difícil y poco confiable.
+
+NOTA: Tenga en cuenta que está prohibido importar entidades de otras capas.

@@ -1,0 +1,5 @@
+Las entidades en ese directorio deben ser altamente independientes y tener su propia zona de responsabilidad. Todas las funcionalidades necesarias, como funciones helpers, storage, constants e interacciones API, deben declararse y utilizarse dentro del módulo. Esto ayuda a evitar que las funcionalidades se dispersen por todo el proyecto y facilita el mantenimiento. De esa manera mantenemos las cosas altamente coherentes y desacopladas, que es nuestro objetivo global.
+
+Cada módulo debe tener un archivo index.js donde se declaran las exportaciones para uso externo (conocidas como la “API pública”). El objetivo principal de este archivo es aislar las partes internas del módulo. Esto ayuda a establecer conexiones claras y evitar el acoplamiento caótico.
+
+NOTA: Tenga en cuenta que está prohibido importar entidades de otros módulos y páginas.

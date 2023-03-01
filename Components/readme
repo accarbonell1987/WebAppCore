@@ -1,0 +1,5 @@
+Todos los elementos de ese directorio se componen de varios componentes de la interfaz de usuario (UI). 
+Si bien pueden contener alguna lógica empresarial básica, se recomienda que sean lo más simples posible. 
+Es una abstracción de nivel superior de la interfaz de usuario.
+
+NOTA: Tenga en cuenta que está prohibido importar entidades de módulos y capas de páginas.
